@@ -15,10 +15,12 @@ In this project, we aim at learning different time integration schemes (explicit
 ## Publications
 
 Comprehensive background information is provided in our paper:  
-[Learning Incompressible Fluid Dynamics from Scratch - Towards Fast, Differentiable Fluid Models that Generalize](https://arxiv.org/abs/2006.08762), *Nils Wandel, Michael Weinmann, Reinhard Klein*, pre-print 2020
+[Learning Incompressible Fluid Dynamics from Scratch - Towards Fast, Differentiable Fluid Models that Generalize](https://arxiv.org/abs/2006.08762)  
+*Nils Wandel, Michael Weinmann, Reinhard Klein*, ICLR, 2021 ([Video](https://www.youtube.com/watch?v=EU3YuUNVsXQ),[Spotlight presentation](https://www.youtube.com/watch?v=wIvFkhsIaRA))
 
 Recently, we extended this work to 3D, so you might also want to check out:  
-[Fast Fluid Simulations in 3D with Physics-Informed Deep Learning](https://arxiv.org/abs/2012.11893), *Nils Wandel, Michael Weinmann, Reinhard Klein*, pre-print 2020
+[Teaching the Incompressible Navier Stokes Equations to Fast Neural Surrogate Models in 3D](https://arxiv.org/abs/2012.11893)  
+*Nils Wandel, Michael Weinmann, Reinhard Klein*, Physics of Fluids, 2021 ([Code](https://github.com/aschethor/Teaching_Incompressible_Fluid_Dynamics_to_3D_CNNs),[Video](https://www.youtube.com/watch?v=tKcYJaJtHJE))
 
 ## Installation
 
@@ -101,7 +103,7 @@ python control_frequency.py --mu=0.1 --rho=4 --dt=4 --target_freq=8
 
 You can set the target frequency (\-\-target_freq) to any value between 2-8.
 
-## Licence
+## License
 
 Feel free to clone this repository and modify it! If it's of good use for you, give it a star and please cite our publications!
 If there are questions left, contact us: wandeln@cs.uni-bonn.de
@@ -110,5 +112,6 @@ If there are questions left, contact us: wandeln@cs.uni-bonn.de
 
 The U-Net implementation is for the most part taken from https://github.com/milesial/Pytorch-UNet/ - an Open Source implementation of:  
 
-"U-Net: Convolutional Networks for Biomedical Image Segmentation", *Olaf Ronneberger, Philipp Fischer, Thomas Brox*, [https://arxiv.org/abs/1505.04597](https://arxiv.org/abs/1505.04597) (2015)
+[U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597)  
+*Olaf Ronneberger, Philipp Fischer, Thomas Brox*, MICCAI, 2015
 
